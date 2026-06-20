@@ -1,7 +1,7 @@
 # Office Network Design
 
 ## Project Overview
-! [ Network Topology](screenshots/topology.png)
+! [Network Topology](screenshots/topology.png)
 
 This project demonstrates the design and implementation of a small office network using Cisco Packet Tracer.
 
