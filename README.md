@@ -35,28 +35,28 @@ In this project, I designed and configured a small office network in Cisco Packe
 
 ## Network Configuration
 
-Created VLAN 10 (Staff)
-Created VLAN 20 (Guest)
-Assigned switch ports to the appropriate VLANs
-Configured an 802.1Q trunk between the switch and router
-Configured router subinterfaces using encapsulation dot1Q
-Configured DHCP pools for both VLANs
-Verified connectivity between devices
-Verification
+- Created VLAN 10 (Staff)
+- Created VLAN 20 (Guest)
+- Assigned switch ports to the appropriate VLANs
+- Configured an 802.1Q trunk between the switch and router
+- Configured router subinterfaces using encapsulation dot1Q
+- Configured DHCP pools for both VLANs
+- Verified connectivity between devices
+- Verification
 
 ## The following commands were used to verify the network configuration:
 
-show vlan brief
-show ip interface brief
-show running-config
-show ip dhcp binding
-ping
+- show vlan brief
+- show ip interface brief
+- show running-config
+- show ip dhcp binding
+- ping
 
 ## Screenshots
 The repository includes screenshots showing:
 
-Network topology
-VLAN configuration
-Router subinterface configuration
-IP interface configuration
-Connectivity tests
+- Network topology
+- VLAN configuration
+- Router subinterface configuration
+- IP interface configuration
+- Connectivity tests
